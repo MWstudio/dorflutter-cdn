@@ -1,0 +1,1 @@
+from image_server.main import app as application
