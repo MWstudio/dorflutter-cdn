@@ -8,7 +8,6 @@ base_dir = os.getcwd()
 config_dir = os.path.abspath(os.path.join(base_dir, "image_server", "main", "scrimdor_cdn.cfg"))
 # docs = FlaskApiSpec()
 
-
 def create_app(config_filename=config_dir):
     app = Flask(__name__)
     app.config.from_pyfile(config_filename)

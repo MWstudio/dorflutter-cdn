@@ -11,7 +11,7 @@ from werkzeug.utils import secure_filename
 from image_server.main.schema import (
     RequestFileSchema
 )
-dfdsfdfsdf
+
 API_CATEGORY = "Image"
 image_bp = Blueprint("image", __name__, url_prefix="/image")
 app = current_app
